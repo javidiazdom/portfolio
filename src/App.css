@@ -6,17 +6,17 @@
 
 .transition-circles-container {
   display:flex;
+  margin-top: -8px;
 }
 
 .circle {
-  margin-top: -3px;
   width: 12.5%;
 }
 
 .info {
-  width: 100%;
-  padding: 10%;
+  padding: 5%;
   height: 60rem;
+  width:  inherit;
 }
 
 .line {
