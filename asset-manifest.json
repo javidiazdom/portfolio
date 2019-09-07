@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a80b5775.chunk.css",
+    "main.js": "/portfolio/static/js/main.311b1312.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.311b1312.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.f7d4dbe8.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f7d4dbe8.js.map",
+    "static/js/2.43a7f072.chunk.js": "/portfolio/static/js/2.43a7f072.chunk.js",
+    "static/js/2.43a7f072.chunk.js.map": "/portfolio/static/js/2.43a7f072.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.2094e42ad98be9a1c797cc23bc622061.js": "/portfolio/precache-manifest.2094e42ad98be9a1c797cc23bc622061.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.a80b5775.chunk.css.map": "/portfolio/static/css/main.a80b5775.chunk.css.map",
+    "static/media/about.9e2c8871.svg": "/portfolio/static/media/about.9e2c8871.svg",
+    "static/media/aura.68d36c79.svg": "/portfolio/static/media/aura.68d36c79.svg",
+    "static/media/education.3a9bd5cb.svg": "/portfolio/static/media/education.3a9bd5cb.svg",
+    "static/media/interests.35912b98.svg": "/portfolio/static/media/interests.35912b98.svg",
+    "static/media/semicircle.f0f4ee12.svg": "/portfolio/static/media/semicircle.f0f4ee12.svg",
+    "static/media/ulpgc.c5f62acb.svg": "/portfolio/static/media/ulpgc.c5f62acb.svg"
+  }
+}
