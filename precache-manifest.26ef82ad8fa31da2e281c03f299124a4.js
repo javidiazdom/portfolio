@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7dcd83944a196cf32bcf61a684d1d730",
+    "revision": "758ab43bcb1cfe1e60d8fe02e28e1945",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "7da84fd448320bc30b73",
-    "url": "/portfolio/static/css/main.b50af828.chunk.css"
+    "revision": "c452470fd794e5c268a8",
+    "url": "/portfolio/static/css/main.97af9551.chunk.css"
   },
   {
     "revision": "ea5dcfe79d1d102c92d3",
     "url": "/portfolio/static/js/2.43a7f072.chunk.js"
   },
   {
-    "revision": "7da84fd448320bc30b73",
-    "url": "/portfolio/static/js/main.ea0ee72f.chunk.js"
+    "revision": "c452470fd794e5c268a8",
+    "url": "/portfolio/static/js/main.f8af5de0.chunk.js"
   },
   {
     "revision": "4bc79a2d54f74fff90c2",
@@ -44,16 +44,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/face.3f1bf7ef.jpg"
   },
   {
-    "revision": "c4580b59f599c045d7927ad6d1e68f51",
-    "url": "/portfolio/static/media/gmail.c4580b59.svg"
+    "revision": "dae22f799d35ff111561d7a0faa08b37",
+    "url": "/portfolio/static/media/gmail.dae22f79.svg"
   },
   {
     "revision": "0f51af54594957176b0a3e0507ec5172",
     "url": "/portfolio/static/media/html5-logo.0f51af54.svg"
   },
   {
-    "revision": "e26c5276068a90208040519864d59395",
-    "url": "/portfolio/static/media/instagram.e26c5276.svg"
+    "revision": "9aafc488aed1ca591536f0e4531819b3",
+    "url": "/portfolio/static/media/instagram.9aafc488.svg"
   },
   {
     "revision": "35912b98462c1b967897ead88111725b",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/js-logo.ffc42ff0.svg"
   },
   {
-    "revision": "424f77898818a5533e492fb09267371f",
-    "url": "/portfolio/static/media/linked-in.424f7789.svg"
+    "revision": "7e2327acac5c5acee3bb232e37708625",
+    "url": "/portfolio/static/media/linked-in.7e2327ac.svg"
   },
   {
     "revision": "5fc8dc944bff1521500d66654c3ab6bb",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/sql-logo.59923953.svg"
   },
   {
-    "revision": "9984b076b1cdee7b32fd04bd2af6bcdb",
-    "url": "/portfolio/static/media/twitter.9984b076.svg"
+    "revision": "6b10ac8358c39270dfee93e6c44a0d14",
+    "url": "/portfolio/static/media/twitter.6b10ac83.svg"
   },
   {
     "revision": "c5f62acb7d0096d788ebef38e34660e2",
