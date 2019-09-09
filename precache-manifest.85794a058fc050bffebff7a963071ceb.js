@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e7e34fb46963e80122496b5b1334b49c",
+    "revision": "7dcd83944a196cf32bcf61a684d1d730",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "101e22bdcc5e7a5c2b56",
-    "url": "/portfolio/static/css/main.163c194e.chunk.css"
+    "revision": "7da84fd448320bc30b73",
+    "url": "/portfolio/static/css/main.b50af828.chunk.css"
   },
   {
     "revision": "ea5dcfe79d1d102c92d3",
     "url": "/portfolio/static/js/2.43a7f072.chunk.js"
   },
   {
-    "revision": "101e22bdcc5e7a5c2b56",
-    "url": "/portfolio/static/js/main.606e319b.chunk.js"
+    "revision": "7da84fd448320bc30b73",
+    "url": "/portfolio/static/js/main.ea0ee72f.chunk.js"
   },
   {
     "revision": "4bc79a2d54f74fff90c2",
@@ -44,16 +44,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/face.3f1bf7ef.jpg"
   },
   {
-    "revision": "ed359fb703229157e64346ce8f148ddc",
-    "url": "/portfolio/static/media/gmail.ed359fb7.svg"
+    "revision": "c4580b59f599c045d7927ad6d1e68f51",
+    "url": "/portfolio/static/media/gmail.c4580b59.svg"
   },
   {
     "revision": "0f51af54594957176b0a3e0507ec5172",
     "url": "/portfolio/static/media/html5-logo.0f51af54.svg"
   },
   {
-    "revision": "0e3b7f5e3b677bce598c4b3703f2b7e8",
-    "url": "/portfolio/static/media/instagram.0e3b7f5e.svg"
+    "revision": "e26c5276068a90208040519864d59395",
+    "url": "/portfolio/static/media/instagram.e26c5276.svg"
   },
   {
     "revision": "35912b98462c1b967897ead88111725b",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/sql-logo.59923953.svg"
   },
   {
-    "revision": "6e391381b6eff98af10ead2edf0e5132",
-    "url": "/portfolio/static/media/twitter.6e391381.svg"
+    "revision": "9984b076b1cdee7b32fd04bd2af6bcdb",
+    "url": "/portfolio/static/media/twitter.9984b076.svg"
   },
   {
     "revision": "c5f62acb7d0096d788ebef38e34660e2",
