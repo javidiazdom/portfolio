@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    background-color: #231D34;
+    margin-top:10vh;
+    width: inherit;
+    height: 8vh;
+    justify-content: center;
+}
+
+.rss {
+    width:auto;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-footer {
+    position: relative;
+    margin-left:5vh;
+    margin-right:5vh;
+    width: 2rem;
+    height: inherit;
+}
