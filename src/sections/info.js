@@ -22,8 +22,8 @@ function Content () {
         <>
             <div className = "content-container">
                 <div className = "square" data-aos = "fade-right" 
-                data-aos-duration = "700" data-anchor-placement ="center-bottom">
-                    <div align = "center" data-aos ="flip-right" data-aos-duration = "1000">
+                data-aos-duration = "300" data-anchor-placement ="center-bottom">
+                    <div align = "center" data-aos ="flip-right" data-aos-duration = "300">
                         <Aboutlogo/>
                     </div>
                     <h2>About me</h2>
@@ -31,16 +31,16 @@ function Content () {
                     <h3>I’m currently studying<br/>computer engineering<br/>at the university of<br/>Las Palmas de<br/>Gran Canaria.
                     </h3>
                 </div>
-                <div className = "square" data-aos ="fade" data-aos-duration = "700" data-anchor-placement ="center-bottom">
-                    <div align = "center" data-aos ="flip-up" data-aos-duration = "1000">
+                <div className = "square" data-aos ="fade" data-aos-duration = "300" data-anchor-placement ="center-bottom">
+                    <div align = "center" data-aos ="flip-up" data-aos-duration = "300">
                         <Intlogo/>
                     </div>
                     <h2>My interests</h2>
                     <div className="under"/>
                     <h3>I’m really interested<br/>in web design, specially<br/>back and front end<br/>development.<br/>Also deep learning and<br/> big data solutions<br/>arouse my interest.</h3>
                 </div>
-                <div className = "square" data-aos ="fade-left" data-aos-duration = "700" data-anchor-placement ="center-bottom">
-                    <div align = "center" data-aos ="flip-left" data-aos-duration = "1000">
+                <div className = "square" data-aos ="fade-left" data-aos-duration = "300" data-anchor-placement ="center-bottom">
+                    <div align = "center" data-aos ="flip-left" data-aos-duration = "300">
                         <Educationlogo/>
                     </div>
                     <h2>Education</h2>

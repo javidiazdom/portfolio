@@ -18,8 +18,8 @@
 .square {
     display: flex; 
     flex-direction: column;
-    border-right: solid 0.2rem;
-    border-right-color: #231D34;
+    border-right: solid 0.1rem;
+    border-right-color: #AAAAC7;
     padding: 2rem;
     text-align: center;
     align-content: center;
@@ -31,8 +31,8 @@
 }
 
 .square:nth-child(3) {
-    border-left: solid 0.2rem;
-    border-left-color: #231D34;
+    border-left: solid 0.1rem;
+    border-left-color: #AAAAC7;
     border-right: 0px;
 }
 
@@ -107,4 +107,20 @@ a {
     font-weight: 300;
     font-size: 1.4vh;
     color: #AAAAC7;
+}
+
+@media screen and (max-width: 800px) {
+    .square {
+        border: 0px;
+        padding: 1rem;
+    }
+
+    .square:nth-child(3) {
+        border-left: 0px;
+    }
+
+    .content-container {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
 }

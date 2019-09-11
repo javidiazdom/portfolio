@@ -22,7 +22,9 @@ function Skills () {
                         <img src = {require('./svg/face.jpg')} alt = "Javier Diaz Dominguez" className = "photo"/>
                         <h2>Who am I?</h2>
                         <div className ="under"/>
-                        <p>I’m a curious and creative developer who is really thirsty for knowledge and new things. I always consider to have a lot to learn in every subject that I get involved.</p>
+                        <div className ="p-container">
+                            <p>I’m a curious and creative developer who is really thirsty for knowledge and new things. I always consider to have a lot to learn in every subject that I get involved.</p>
+                        </div>
                     </div>
                 </div>
                 <div className ="bars">
@@ -76,7 +78,7 @@ function Skills () {
 
                     <div className="bar-container">
                         <div className = "logo">
-                            <Python></Python>
+                        <Python></Python>
                         </div>
                         <div className = "bar">
                             <div className = "bar-back">

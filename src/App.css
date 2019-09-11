@@ -36,4 +36,16 @@
 
 .skills-container {
   margin-top: 15rem;
+  padding:4rem;
+}
+
+@media screen and (max-width: 800px) {
+  .info {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .skills-container {
+    margin-top: 2rem;
+  }
 }
