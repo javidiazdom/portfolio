@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f72a2de6d0a7bb8a697014726f4a7141",
+    "revision": "58206c897a63ba8b88550d4e539f528f",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.7abef457.chunk.css"
   },
   {
-    "revision": "2a8e4a0d05b1dc58b25b",
-    "url": "/portfolio/static/css/main.b49dae97.chunk.css"
+    "revision": "27347eaab7e73b1a4196",
+    "url": "/portfolio/static/css/main.da9e880d.chunk.css"
   },
   {
     "revision": "f6e24da12207ffc9abac",
     "url": "/portfolio/static/js/2.c34d673e.chunk.js"
   },
   {
-    "revision": "2a8e4a0d05b1dc58b25b",
-    "url": "/portfolio/static/js/main.f04ad4c5.chunk.js"
+    "revision": "27347eaab7e73b1a4196",
+    "url": "/portfolio/static/js/main.29d2e43e.chunk.js"
   },
   {
     "revision": "4bc79a2d54f74fff90c2",
@@ -80,16 +80,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/python-logo.5fc8dc94.svg"
   },
   {
-    "revision": "f6ab0cbeb0d27011870e341c57d2fbb7",
-    "url": "/portfolio/static/media/react-logo.f6ab0cbe.svg"
+    "revision": "2eb2597e2cf5a416289b023cd0b55171",
+    "url": "/portfolio/static/media/react-logo.2eb2597e.svg"
   },
   {
     "revision": "f0f4ee1282cf90737f065124d13e8b46",
     "url": "/portfolio/static/media/semicircle.f0f4ee12.svg"
   },
   {
-    "revision": "59923953ffc9448f4fe033ff5bd28698",
-    "url": "/portfolio/static/media/sql-logo.59923953.svg"
+    "revision": "a1aefe0b68aa7a9d427f2eb0296ee978",
+    "url": "/portfolio/static/media/sql-logo.a1aefe0b.svg"
   },
   {
     "revision": "0160ed592345cc3a9be15750d4d32b1f",
