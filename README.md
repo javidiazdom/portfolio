@@ -4,9 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The scroll animations where made with [Aos package](https://michalsnik.github.io/aos/). The main animation (which has not yet been done 😅) will be made with [Animejs](https://animejs.com/).
 
-You can check the final page [here](https://javidiazdom.github.io/portfolio/).Hope you like it! x😋
+You can check the final page [here](https://javidiazdom.github.io/portfolio/). Hope you like it! 😋
 
-In case you want to clone the repository and test the app, just run 'npm start'.
+In case you want to clone the repository and test the app, just run `npm start`.
 
 ## Available Scripts
 
