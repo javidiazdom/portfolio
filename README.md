@@ -6,6 +6,8 @@ The scroll animations where made with [Aos package](https://michalsnik.github.io
 
 You can check the final page [here](https://javidiazdom.github.io/portfolio/). Hope you like it! 😋
 
+This is a test.
+
 In case you want to clone the repository and test the app, just run `npm start`.
 
 ## Available Scripts
