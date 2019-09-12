@@ -28,100 +28,116 @@ function Skills () {
                     </div>
                 </div>
                 <div className ="bars">
-                    <div className="bar-container">
-                        <div className = "logo">
-                            <Css></Css>
-                        </div>
-                        <div className = "bar">
-                            <div className = "bar-back">
-                                <div className = "progress css"/>
-                                <p>40%</p>
+                    <div className="bar-precont">
+                        <div className="bar-container">
+                            <div className = "logo">
+                                <Css></Css>
+                            </div>
+                            <div className = "bar">
+                                <div className = "bar-back">
+                                    <div className = "progress" style={{width:'40%'}}/>
+                                </div>
                             </div>
                         </div>
+                        <p>40%</p>
                     </div>
 
-                    <div className="bar-container">
-                        <div className = "logo">
-                            <Html></Html>
-                        </div>
-                        <div className = "bar">
-                            <div className = "bar-back">
-                                <div className = "progress html"/>
-                                <p>50%</p>
+                    <div className="bar-precont">
+                        <div className="bar-container">
+                            <div className = "logo">
+                                <Html></Html>
+                            </div>
+                            <div className = "bar">
+                                <div className = "bar-back">
+                                    <div className = "progress" style={{width:'50%'}}/>
+                                </div>
                             </div>
                         </div>
+                        <p>50%</p>
                     </div>
 
-                    <div className="bar-container">
-                        <div className = "logo">
-                            <Java></Java>
-                        </div>
-                        <div className = "bar">
-                            <div className = "bar-back">
-                                <div className = "progress java"/>
-                                <p>70%</p>
+                    <div className="bar-precont">
+                        <div className="bar-container">
+                            <div className = "logo">
+                                <Java></Java>
+                            </div>
+                            <div className = "bar">
+                                <div className = "bar-back">
+                                    <div className = "progress" style={{width:'70%'}}/>
+                                </div>
                             </div>
                         </div>
+                        <p>70%</p>
                     </div>
 
-                    <div className="bar-container">
-                        <div className = "logo">
-                            <Js></Js>
-                        </div>
-                        <div className = "bar">
-                            <div className = "bar-back">
-                                <div className = "progress js"/>
-                                <p>30%</p>
+                    <div className="bar-precont">
+                        <div className="bar-container">
+                            <div className = "logo">
+                                <Js></Js>
+                            </div>
+                            <div className = "bar">
+                                <div className = "bar-back">
+                                    <div className = "progress" style={{width:'30%'}}/>
+                                </div>
                             </div>
                         </div>
+                        <p>30%</p>
                     </div>
 
-                    <div className="bar-container">
-                        <div className = "logo">
-                        <Python></Python>
-                        </div>
-                        <div className = "bar">
-                            <div className = "bar-back">
-                                <div className = "progress python"/>
-                                <p>20%</p>
+                    <div className="bar-precont">
+                        <div className="bar-container">
+                            <div className = "logo">
+                            <Python></Python>
+                            </div>
+                            <div className = "bar">
+                                <div className = "bar-back">
+                                    <div className = "progress" style={{width:'20%'}}/>
+                                </div>
                             </div>
                         </div>
+                        <p>20%</p>
                     </div>
 
-                    <div className="bar-container">
-                        <div className = "logo">
-                            <ReactL></ReactL>
-                        </div>
-                        <div className = "bar">
-                            <div className = "bar-back">
-                                <div className = "progress react"/>
-                                <p>30%</p>
+                    <div className="bar-precont">
+                        <div className="bar-container">
+                            <div className = "logo">
+                                <ReactL></ReactL>
+                            </div>
+                            <div className = "bar">
+                                <div className = "bar-back">
+                                    <div className = "progress" style={{width:'30%'}}/>
+                                </div>
                             </div>
                         </div>
+                        <p>30%</p>
                     </div>
 
-                    <div className="bar-container">
-                        <div className = "logo">
-                            <Angular></Angular>
-                        </div>
-                        <div className = "bar">
-                            <div className = "bar-back">
-                                <div className = "progress angular"/>
-                                <p>40%</p>
+                    <div className="bar-precont">
+                        <div className="bar-container">
+                            <div className = "logo">
+                                <Angular></Angular>
+                            </div>
+                            <div className = "bar">
+                                <div className = "bar-back">
+                                    <div className = "progress" style={{width:'40%'}}/>
+                                </div>
                             </div>
                         </div>
+                        <p>40%</p>
                     </div>
 
-                    <div className="bar-container">
-                        <div className = "logo">
-                            <Sql></Sql>
-                        </div>
-                        <div className = "bar">
-                            <div className = "bar-back">
-                                <div className = "progress sql"/>
-                                <p>40%</p>
+                    <div className="bar-precont">
+                        <div className="bar-container">
+                            <div className = "logo">
+                                <Sql></Sql>
+                            </div>
+                            <div className = "bar">
+                                <div className = "bar-back">
+                                    <div className = "progress" style={{width:'40%'}}/>
+                                </div>
                             </div>
                         </div>
+                        <p>40%</p>
                     </div>
                 </div>
             </div>

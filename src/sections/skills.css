@@ -76,6 +76,7 @@ p {
 .me p {
     text-align: center;
     font-family: 'Raleway', sans-serif;
+
 }
 
 h1 {
@@ -86,8 +87,6 @@ h1 {
 .bar {
     width: 100%;
     min-width: 40vh;
-    background: #2A2E35;
-    box-shadow: 0px 4px 8px #000000;
     padding-left: 2rem;
 }
 .bar-back {
@@ -110,10 +109,24 @@ h1 {
     font-size: 110%;
 }
 
+.bar-precont {
+    background: #2A2E35;
+    box-shadow: 0px 4px 8px #000000;
+    text-align: right;
+}
+
+.bar-precont p {
+    margin-right: 1rem;
+    margin-top: -1.4rem;
+    padding-bottom: 0.5rem;
+    color: #F8F8F8;
+}
+
 .bar-container {
     margin-top: 3rem;
     display: flex;
     flex-direction: row;
+    padding: 1rem;
 }
 
 .logo {
@@ -125,44 +138,5 @@ h1 {
 
 .progress {
     height: inherit;
-}
-
-.html {
-    background-color: #E34F26;
-    width: 50%;
-}
-
-.css {
-    background-color: #264DE4;
-    width: 40%;
-}
-
-.java {
-    background-color: #E77206;
-    width: 70%;
-}
-
-.js {
-    background-color: #F7DF1E;
-    width: 30%;
-}
-
-.python {
-    background-color: #366F9E;
-    width: 20%;
-}
-
-.react {
-    background-color: #61DAFB;
-    width: 30%;
-}
-
-.angular {
-    background-color: #A6120D;
-    width: 40%;
-}
-
-.sql {
-    background-color: #535758;
-    width: 40%;
+    background-color: #454E56;
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import {ReactComponent as Semicircle} from './svg/semicircle.svg';
 import Info from './sections/info';
 import Skills from './sections/skills';
 import Footer from './sections/footer.js';
