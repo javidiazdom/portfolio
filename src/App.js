@@ -22,9 +22,6 @@ class App extends React.Component {
           </div>
           {/*Here goes the js animation*/}
         </div>
-        <div className = "transition-circles-container">
-          <Semicircles/>
-        </div>
         <div className = "info">
           <Info/>
         </div>
@@ -37,37 +34,6 @@ class App extends React.Component {
       </>
     );
   }
-}
-
-function Semicircles() {
-  return (
-    <>
-      <div className="circle">
-        <Semicircle></Semicircle>
-      </div>
-      <div className="circle">
-        <Semicircle></Semicircle>
-      </div>
-      <div className="circle">
-        <Semicircle></Semicircle>
-      </div>
-      <div className="circle">
-        <Semicircle></Semicircle>
-      </div>
-      <div className="circle">
-        <Semicircle></Semicircle>
-      </div>
-      <div className="circle">
-        <Semicircle></Semicircle>
-      </div>
-      <div className="circle">
-        <Semicircle></Semicircle>
-      </div>
-      <div className="circle">
-        <Semicircle></Semicircle>
-      </div>
-    </>
-  );
 }
 
 export default App;

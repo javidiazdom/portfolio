@@ -12,28 +12,18 @@
     padding-right: 8rem;
     width: 100%;
     flex-wrap: wrap;
-    justify-content: center safe;
+    justify-content: space-between;
 }
 
 .square {
     display: flex; 
     flex-direction: column;
-    border-right: solid 0.1rem;
-    border-right-color: #AAAAC7;
     padding: 2rem;
     text-align: center;
     align-content: center;
-    flex-grow: 1;
-}
-
-.square:nth-child(2) {
-    border:0px;
-}
-
-.square:nth-child(3) {
-    border-left: solid 0.1rem;
-    border-left-color: #AAAAC7;
-    border-right: 0px;
+    background-color: #2A2E35;
+    box-shadow: 0px 4px 8px #000000;
+    width: 25%;
 }
 
 h2 {

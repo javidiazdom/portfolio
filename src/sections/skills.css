@@ -86,6 +86,9 @@ h1 {
 .bar {
     width: 100%;
     min-width: 40vh;
+    background: #2A2E35;
+    box-shadow: 0px 4px 8px #000000;
+    padding-left: 2rem;
 }
 .bar-back {
     display: flex;
