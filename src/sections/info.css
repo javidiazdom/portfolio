@@ -24,6 +24,7 @@
     background-color: #2A2E35;
     box-shadow: 0px 4px 8px #000000;
     width: 25%;
+    min-width: 20vh;
 }
 
 h2 {
@@ -44,7 +45,7 @@ h4 {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 2vh;
-    color: #AAAAC7;
+    color: #b2becd;;
 }
 
 a {
@@ -97,17 +98,12 @@ a {
     font-family: Raleway;
     font-weight: 300;
     font-size: 1.4vh;
-    color: #AAAAC7;
+    color: #dbe1e8;
 }
 
 @media screen and (max-width: 800px) {
     .square {
-        border: 0px;
         padding: 1rem;
-    }
-
-    .square:nth-child(3) {
-        border-left: 0px;
     }
 
     .content-container {

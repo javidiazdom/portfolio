@@ -14,16 +14,14 @@ function Skills () {
         <>
             <div align = "center">
                 <h1>Skills</h1>
-                <div className = "under"/>
             </div>
             <div className ="content">
                 <div className ="me">
                     <div className = "me-container">
                         <img src = {require('./svg/face.jpg')} alt = "Javier Diaz Dominguez" className = "photo"/>
                         <h2>Who am I?</h2>
-                        <div className ="under"/>
                         <div className ="p-container">
-                            <p>I’m a curious and creative developer who is really thirsty for knowledge and new things. I always consider to have a lot to learn in every subject that I get involved.</p>
+                            <h4>I’m a curious and creative developer who is really thirsty for knowledge and new things. I always consider to have a lot to learn in every subject that I get involved.</h4>
                         </div>
                     </div>
                 </div>
@@ -59,7 +57,7 @@ function Skills () {
                     <div className="bar-precont">
                         <div className="bar-container">
                             <div className = "logo">
-                                <Java></Java>
+                                {/*<Java></Java>*/}
                             </div>
                             <div className = "bar">
                                 <div className = "bar-back">
