@@ -57,7 +57,7 @@ function Skills () {
                     <div className="bar-precont">
                         <div className="bar-container">
                             <div className = "logo">
-                                {/*<Java></Java>*/}
+                                <Java></Java>
                             </div>
                             <div className = "bar">
                                 <div className = "bar-back">

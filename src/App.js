@@ -3,6 +3,7 @@ import './App.css';
 import Info from './sections/info';
 import Skills from './sections/skills';
 import Footer from './sections/footer.js';
+import Animation from './sections/animation.js';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -16,10 +17,7 @@ class App extends React.Component {
     return (
       <>
         <div className = "home">
-          <div className = "line">
-            <div className = "bg"/>
-          </div>
-          {/*Here goes the js animation*/}
+          <Animation/>
         </div>
         <div className = "info">
           <Info/>
