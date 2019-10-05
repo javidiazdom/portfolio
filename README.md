@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The scroll animations where made with [Aos package](https://michalsnik.github.io/aos/). The main animation (which has not yet been done 😅) will be made with [Animejs](https://animejs.com/).
+The scroll animations where made with [Aos package](https://michalsnik.github.io/aos/). The main animation (which has not yet been done 😅) will be made with [React Spring](https://www.react-spring.io/).
 
 You can check the final page [here](https://javidiazdom.github.io/portfolio/). Hope you like it! 😋
 
