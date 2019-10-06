@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://javidiazdom.github.io/portfolio",
+  "homepage": "https://javidiazdom.dev",
   "dependencies": {
     "aos": "^2.3.4",
     "react": "^16.9.0",
