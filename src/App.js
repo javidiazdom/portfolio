@@ -3,7 +3,7 @@ import './App.css';
 import Info from './sections/info';
 import Skills from './sections/skills';
 import Footer from './sections/footer.js';
-import Animation from './sections/animation.js';
+import Animation from './sections/header/animation.js';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

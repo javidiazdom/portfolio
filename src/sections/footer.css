@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    background-color: #2A2E35;
+    background-color: var(--secondary-bg);
     margin-top:10vh;
     width: inherit;
     height: 8vh;
