@@ -19,13 +19,26 @@ code {
   --font-color: #F8F8F8;
   --font-color-2: #B2BECD;
   --standout-color:#00FFA3;
-  
+  --standout-2: #F8F8F8;
+  --box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  --bg-shadow: 0px 4px 8px #000000;
+  --logo-1:#F8F8F8;
+  --logo-2:#B3B3B3;
+  --logo-3:#12181B;
+  --logo-4:;
 }
 
 [data-theme="light"] {
-  --primary-bg: #f6f6f6 ;
-  --secondary-bg: #eae9e9 ;
-  --font-color: #d4d7dd ;
-  --font-color-2: #B2BECD;
-  --standout-color: #420000 ;
+  --primary-bg: #fff1e9 ;
+  --secondary-bg: #fff1e9 ;
+  --font-color: #fc7fb2 ;
+  --font-color-2: #3c4245;
+  --standout-color: #fc7fb2 ;
+  --box-shadow: ;
+  --bg-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05);
+  --standout-2: #3c4245;
+  --logo-1:#3c4245;
+  --logo-2:;
+  --logo-3:#fff1e9;
+  --logo-4:;
 }

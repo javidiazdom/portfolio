@@ -8,8 +8,10 @@ import {ReactComponent as Python} from './svg/bars/python-logo.svg';
 import {ReactComponent as ReactL} from './svg/bars/react-logo.svg';
 import {ReactComponent as Angular} from './svg/bars/angular-logo.svg';
 import {ReactComponent as Sql} from './svg/bars/sql-logo.svg';
+import {Spring, config} from 'react-spring/renderprops';
 
 function Skills () {
+    
     return (
         <>
             <div align = "center">
@@ -33,7 +35,9 @@ function Skills () {
                             </div>
                             <div className = "bar">
                                 <div className = "bar-back">
-                                    <div className = "progress" style={{width:'40%'}}/>
+                                    <div onWheel={(e)=>console.log("hey",e)}>
+                                        <div className = "progress" style={{width:'40%'}}/>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +79,11 @@ function Skills () {
                             </div>
                             <div className = "bar">
                                 <div className = "bar-back">
-                                    <div className = "progress" style={{width:'30%'}}/>
+                                    <Spring
+                                    from = {{number : 0}}
+                                    to={{number: 30}}>
+                                        {props => <div className = "progress" style={{width: props.number+'%'}}/>}
+                                    </Spring>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +97,11 @@ function Skills () {
                             </div>
                             <div className = "bar">
                                 <div className = "bar-back">
-                                    <div className = "progress" style={{width:'20%'}}/>
+                                <Spring
+                                    from = {{number : 0}}
+                                    to={{number: 20}}>
+                                        {props => <div className = "progress" style={{width: props.number+'%'}}/>}
+                                    </Spring>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +115,11 @@ function Skills () {
                             </div>
                             <div className = "bar">
                                 <div className = "bar-back">
-                                    <div className = "progress" style={{width:'30%'}}/>
+                                <Spring
+                                    from = {{number : 0}}
+                                    to={{number: 30}}>
+                                        {props => <div className = "progress" style={{width: props.number+'%'}}/>}
+                                    </Spring>
                                 </div>
                             </div>
                         </div>
@@ -117,7 +133,11 @@ function Skills () {
                             </div>
                             <div className = "bar">
                                 <div className = "bar-back">
-                                    <div className = "progress" style={{width:'40%'}}/>
+                                <Spring
+                                    from = {{number : 0}}
+                                    to={{number: 40}}>
+                                        {props => <div className = "progress" style={{width: props.number+'%'}}/>}
+                                    </Spring>
                                 </div>
                             </div>
                         </div>
@@ -131,7 +151,11 @@ function Skills () {
                             </div>
                             <div className = "bar">
                                 <div className = "bar-back">
-                                    <div className = "progress" style={{width:'40%'}}/>
+                                <Spring
+                                    from = {{number : 0}}
+                                    to={{number: 40}}>
+                                        {props => <div className = "progress" style={{width: props.number+'%'}}/>}
+                                    </Spring>
                                 </div>
                             </div>
                         </div>

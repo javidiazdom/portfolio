@@ -17,8 +17,8 @@
     padding: 2rem;
     text-align: center;
     align-content: center;
-    background-color: #2A2E35;
-    box-shadow: 0px 4px 8px #000000;
+    background-color: var(--secondary-bg);
+    box-shadow: var(--bg-shadow);
     width: 25%;
     min-width: 20vh;
     margin-bottom: 5rem;
@@ -27,14 +27,14 @@
 h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 4vh;
-    color: #F8F8F8;
+    color: var(--font-color);
     margin-bottom: 15px;
 }
 
 h3 {
     font-family: 'Raleway', sans-serif;
     font-size: 2.6vh;
-    color: #B2BECD;
+    color: var(--font-color-2);
     line-height: 3.1vh;
 }
 
@@ -42,7 +42,7 @@ h4 {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 2vh;
-    color: #b2becd;;
+    color: var(--font-color-2);
 }
 
 a {
@@ -87,7 +87,7 @@ a {
     font-family: Raleway;
     font-weight: 300;
     font-size: 1.4vh;
-    color: #dbe1e8;
+    color: var(--font-color-2);
 }
 
 @media screen and (max-width: 800px) {
