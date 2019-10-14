@@ -58,16 +58,15 @@ function Item (props) {
             <VisibilitySensor onChange={() => toggle(!state)}>
                 <div className="bar-precont">
                     <div className="bar-container">
-                        <div className = "logo">
-                            <Tag/>
-                        </div>
                         <div className = "bar">
                             <div className = "bar-back">
-                                <animated.div className = "progress" style={propts}></animated.div>
+                                <animated.div className = "progress" style={propts}>
+                                    <Tag className = "logo"/>
+                                </animated.div>
+                                <p>{Item.progress}%</p>
                             </div>
                         </div>
                     </div>
-                    <p>{Item.progress}%</p>
                 </div>
             </VisibilitySensor>
         </>
