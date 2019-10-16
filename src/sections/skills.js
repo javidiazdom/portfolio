@@ -76,18 +76,26 @@ function Item (props) {
     const propts = useSpring({width: state ? Item.progress+'%' : '0%', from: {width: '0%'}})
     return (
         <>
+<<<<<<< HEAD
             <div className="bar-precont">
                 <div className="bar-container">
                     <div className = "bar">
                         <VisibilitySensor partialVisibility ={true} onChange={() => toggle(!state)}>
+=======
+            <VisibilitySensor onChange={() => toggle(!state)}>
+                <div className="bar-precont">
+                    <div className="bar-container">
+                        <div className = "logo">
+                            <Tag/>
+                        </div>
+                        <div className = "bar">
+>>>>>>> parent of 20fc21f... Improoved the looks of the bars and added anim
                             <div className = "bar-back">
-                                <animated.div className = "progress" style={propts}>
-                                    <Tag className = "logo"/>
-                                </animated.div>
-                                <p>{Item.progress}%</p>
+                                <animated.div className = "progress" style={propts}></animated.div>
                             </div>
                         </VisibilitySensor>
                     </div>
+                    <p>{Item.progress}%</p>
                 </div>
             </div>
         </>
