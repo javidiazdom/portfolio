@@ -31,42 +31,21 @@ function Skills () {
                 <h1>Skills</h1>
             </div>
             <div className ="content">
-                <div className = "me-container">
-                    <Me/>
-                </div>
-                {/*<div className ="me">
+                <div className ="me">
                     <div className = "me-container">
                         <img src = {require('./svg/face.jpg')} alt = "Javier Diaz Dominguez" className = "photo"/>
-                        
+                        <h2>Who am I?</h2>
+                        <div className ="p-container">
+                            <h4>I’m a curious and creative developer who is really thirsty for knowledge and new things. I always consider to have a lot to learn in every subject that I get involved.</h4>
+                        </div>
                     </div>
-                </div>*/}
+                </div>
                 <div className ="bars">
                     {skills.map((item,index) => <Item key = {index} item = {item}/>)}
                 </div>
             </div>
         </>
     );
-}
-
-function Me () {
-    const [flipped,set] = useState(false);
-    const { transform, opacity } = useSpring ({
-        opacity: flipped ? 1 : 0,
-        transform: `perspective(600px) rotateX(${flipped ? 180 : 0}deg)`,
-        config: {mass : 5, tension : 500 , friction: 80}
-    })
-
-    return (
-        <div className = "out-div" onClick = {() => set(state => !state)}>
-            <animated.div className = "me back" style={{opacity: opacity.interpolate(o => 1-o), transform}} >
-                <div className = "text">
-                    <h2>Who am I?</h2>
-                    <h4>I’m a curious and creative developer who is really thirsty for knowledge and new things. I always consider to have a lot to learn in every subject that I get involved.</h4>
-                </div>
-            </animated.div>
-            <animated.div className = "me front" style={{opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`)}} />
-        </div>
-    )
 }
 
 function Item (props) {
@@ -76,28 +55,20 @@ function Item (props) {
     const propts = useSpring({width: state ? Item.progress+'%' : '0%', from: {width: '0%'}})
     return (
         <>
-<<<<<<< HEAD
-            <div className="bar-precont">
-                <div className="bar-container">
-                    <div className = "bar">
-                        <VisibilitySensor partialVisibility ={true} onChange={() => toggle(!state)}>
-=======
             <VisibilitySensor onChange={() => toggle(!state)}>
                 <div className="bar-precont">
                     <div className="bar-container">
-                        <div className = "logo">
-                            <Tag/>
-                        </div>
                         <div className = "bar">
->>>>>>> parent of 20fc21f... Improoved the looks of the bars and added anim
                             <div className = "bar-back">
-                                <animated.div className = "progress" style={propts}></animated.div>
+                                <animated.div className = "progress" style={propts}>
+                                    <Tag className = "logo"/>
+                                </animated.div>
+                                <p>{Item.progress}%</p>
                             </div>
-                        </VisibilitySensor>
+                        </div>
                     </div>
-                    <p>{Item.progress}%</p>
                 </div>
-            </div>
+            </VisibilitySensor>
         </>
     );
 }

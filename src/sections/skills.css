@@ -20,6 +20,14 @@
     width: 70%;
 }
 
+.under {
+    margin-top: -10px;
+    margin-bottom: 2rem;
+    width: 50px;
+    background-color: #000000;
+    height: 4px;
+    align-self: center;
+}
 
 p {
     font-family: 'Lato', sans-serif;
@@ -35,47 +43,32 @@ p {
     flex-wrap: wrap-reverse;
 }
 
-.front {
-    padding-bottom: 90%;
-    background-image: url(./svg/face.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.text {
-    position: absolute;
-    height: 100%;
-    text-align: center;
-    padding: 20% 8%;
-    top:0;
-    left:0;
-    word-wrap: break-word;
-}
-
-.back {
-    background-color: var(--secondary-bg);
-    padding-bottom: 90%;
-    position: relative;
+.photo {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    align-self: center;
+    box-shadow: var(--box-shadow);
 }
 
 .me {
-    position: absolute;
-    width: 90%;
-    height: 3rem;
-    overflow: hidden;
-    will-change: transform, opacity;
-    box-shadow: var(--bg-shadow);
-    cursor: pointer;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) !important;
+    padding: 4rem;
+    max-width: 30%;
+    flex-grow: 1;
 }
 
 .me-container {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
     position: relative;
-    flex-grow: 0.8;
-    justify-content: center;
-    align-items: center;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: var(--secondary-bg);
+    box-shadow: var(--bg-shadow);
+    padding-top: 10%;
+    padding-bottom:10%;
 }
 
 .bars {
@@ -93,6 +86,7 @@ p {
 .me p {
     text-align: center;
     font-family: 'Raleway', sans-serif;
+
 }
 
 h1 {
@@ -103,55 +97,29 @@ h1 {
 }
 .bar {
     width: 100%;
-    padding-left: 2rem;
+    margin: 2%;
 }
-
-.out-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .bar-back {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: #E0E6F4;
+    background: var(--secondary-bg);
     width: 100%;
-    height: 2vh;
+    height: 9vh;
     text-align: right;
     box-shadow: var(--box-shadow);
-<<<<<<< HEAD
     border-radius: 1vh;
-    border: 0.4vh solid var(--logo-1);
-    overflow: hidden;
-=======
-    position: relative;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
->>>>>>> parent of 20fc21f... Improoved the looks of the bars and added anim
+    border: 0.3vh solid var(--logo-1);
 }
+
 
 .bar-back p {
-<<<<<<< HEAD
     padding: 1vh; 
-    color: var(--font-color-3);
+    color: var(--font-color);
     margin:0px;
-    font-size: 4vh;
+    font-size: 4.5vh;
     line-height: 150%;
     font-family: -apple-system,sans-serif;;
-=======
-    margin:0px;
-    font-size: 110%;
-}
-
-.bar-precont p {
-    margin-right: 1rem;
-    margin-top: -1.4rem;
-    padding-bottom: 0.5rem;
-    color: var(--font-color-2);
->>>>>>> parent of 20fc21f... Improoved the looks of the bars and added anim
 }
 
 .bar-container {
@@ -162,14 +130,16 @@ h1 {
 }
 
 .logo {
-    height: 70px;
-    width: 70px;
-    z-index: 1;
-    margin-right: -10vh;
+    height: 90%;
+    margin-right: 1vh;
+    margin-left: 1vh;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .progress {
-    height: 100%;
+    height: inherit;
     background-color: var(--standout-color);
-    overflow: hidden;
 }
