@@ -20,14 +20,6 @@
     width: 70%;
 }
 
-.under {
-    margin-top: -10px;
-    margin-bottom: 2rem;
-    width: 50px;
-    background-color: #000000;
-    height: 4px;
-    align-self: center;
-}
 
 p {
     font-family: 'Lato', sans-serif;
@@ -43,32 +35,47 @@ p {
     flex-wrap: wrap-reverse;
 }
 
-.photo {
-    border-radius: 50%;
-    width: 10rem;
-    height: 10rem;
-    align-self: center;
-    box-shadow: var(--box-shadow);
+.front {
+    padding-bottom: 90%;
+    background-image: url(./svg/face.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.text {
+    position: absolute;
+    height: 100%;
+    text-align: center;
+    padding: 20% 8%;
+    top:0;
+    left:0;
+    word-wrap: break-word;
+}
+
+.back {
+    background-color: var(--secondary-bg);
+    padding-bottom: 90%;
+    position: relative;
 }
 
 .me {
-    padding: 4rem;
-    max-width: 30%;
-    flex-grow: 1;
+    position: absolute;
+    width: 90%;
+    height: 3rem;
+    overflow: hidden;
+    will-change: transform, opacity;
+    box-shadow: var(--bg-shadow);
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
 }
 
 .me-container {
-    flex-direction: column;
-    display: flex;
-    text-align: center;
     position: relative;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    background: var(--secondary-bg);
-    box-shadow: var(--bg-shadow);
-    padding-top: 10%;
-    padding-bottom:10%;
+    flex-grow: 0.8;
+    justify-content: center;
+    align-items: center;
 }
 
 .bars {
@@ -86,7 +93,6 @@ p {
 .me p {
     text-align: center;
     font-family: 'Raleway', sans-serif;
-
 }
 
 h1 {
@@ -99,6 +105,13 @@ h1 {
     width: 100%;
     margin: 2%;
 }
+
+.out-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .bar-back {
     display: flex;
     flex-direction: row;
@@ -109,15 +122,16 @@ h1 {
     text-align: right;
     box-shadow: var(--box-shadow);
     border-radius: 1vh;
-    border: 0.3vh solid var(--logo-1);
+    border: 0.4vh solid var(--logo-1);
+    overflow: hidden;
 }
 
 
 .bar-back p {
     padding: 1vh; 
-    color: var(--font-color);
+    color: var(--font-color-3);
     margin:0px;
-    font-size: 4.5vh;
+    font-size: 4vh;
     line-height: 150%;
     font-family: -apple-system,sans-serif;;
 }
@@ -140,6 +154,7 @@ h1 {
 }
 
 .progress {
-    height: inherit;
+    height: 100%;
     background-color: var(--standout-color);
+    overflow: hidden;
 }
