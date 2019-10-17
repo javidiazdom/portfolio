@@ -52,7 +52,14 @@ function Item (props) {
     let Item = props.item;
     let Tag = props.item.name;
     const [state, toggle] = useState(true);
-    const propts = useSpring({width: state ? Item.progress+'%' : '0%', from: {width: '0%'}})
+    const propts = useSpring({
+        width: state ? Item.progress+'%' : '0%', from: {width: '0%'}, 
+        config: {
+            mass : 1,
+            tension: 400,
+            friction: 20
+        }
+    })
     return (
         <>
             <div className="bar-precont">

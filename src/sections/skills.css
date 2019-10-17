@@ -2,8 +2,13 @@
     .me {
         padding: 0px !important;
         width: 800px;
-        margin-top: 12rem;
+        margin-top: 20%;
         max-width: 100% !important;
+    }
+
+    .skills-container {
+        padding: 0px !important;
+        width: 100%;
     }
 }
 
@@ -107,15 +112,16 @@ h1 {
     width: 100%;
     height: 9vh;
     text-align: right;
-    box-shadow: var(--box-shadow);
-    border-radius: 1vh;
-    border: 0.3vh solid var(--logo-1);
+    
+    border-radius: 0vh;
+    border: 0vh solid var(--logo-1);
+    overflow: hidden;
 }
 
 
 .bar-back p {
     padding: 1vh; 
-    color: var(--font-color);
+    color: var(--logo-1);
     margin:0px;
     font-size: 4.5vh;
     line-height: 150%;
