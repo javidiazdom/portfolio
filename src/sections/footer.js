@@ -17,8 +17,12 @@ function Footer() {
                     <a href="mailto:javidiazdom@gmail.com" target="_blank" rel="noopener noreferrer">
                         <div className = "logo-footer"><Gmail/></div>
                     </a>
-                    <div className = "logo-footer"><Instagram/></div>
-                    <div className = "logo-footer"><Twitter/></div>
+                    <a href = "about:blank" target="_blank" rel="noopener noreferrer">
+                        <div className = "logo-footer"><Instagram/></div>
+                    </a>
+                    <a href = "about:blank" target="_blank" rel="noopener noreferrer">
+                        <div className = "logo-footer"><Twitter/></div>
+                    </a>
                 </div>
             </div>
         </>

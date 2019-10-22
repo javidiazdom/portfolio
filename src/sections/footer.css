@@ -8,16 +8,19 @@
 }
 
 .rss {
-    width:auto;
+    width: 50%;
     align-self: center;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+
+.rss a{
+
 }
 
 .logo-footer {
     position: relative;
-    margin-left:5vh;
-    margin-right:5vh;
-    width: 2rem;
+    width: 3vh;
     height: inherit;
 }
