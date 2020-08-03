@@ -64,7 +64,7 @@ function Content () {
                             <div className = "infor">
                                 <h3>AURA Business<br/>training center</h3>
                                 <h4>Analysis and management <br/>of Information in Big Data <br/>environments</h4>
-                                <p>2017-2021</p>
+                                <p>2018</p>
                             </div>
                         </div>
                     </a>

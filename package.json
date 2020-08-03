@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://javidiazdom.dev",
   "dependencies": {
+    "animejs": "^3.2.0",
     "aos": "^2.3.4",
     "react": "^16.9.0",
     "react-anime": "^2.2.0",

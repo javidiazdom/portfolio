@@ -18,7 +18,7 @@ function Skills () {
         {name : Html , progress : 50},
         {name : Java , progress : 70},
         {name : Js , progress : 30},
-        {name : Python , progress : 20},
+        {name : Python , progress : 40},
         {name : ReactL , progress : 30},
         {name : Angular , progress : 40},
         {name : Sql , progress : 40},
