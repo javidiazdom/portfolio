@@ -12,16 +12,16 @@ const header = () => {
                 </svg>
             </div>
             <div/>
-            <div class = "nav home">
+            <div class = "nav homenav">
                 <h4>HOME🏠</h4>
             </div>
-            <div class = "nav about">
+            <div class = "nav aboutnav">
                 <h4>ABOUT📃</h4>
             </div>
-            <div class = "nav work">
-                <h4>ABOUT📃</h4>
+            <div class = "nav worknav">
+                <h4>MY WORK</h4>
             </div>
-            <div class = "nav contact">
+            <div class = "nav contactnav">
                 <h4>SAY👋</h4>
             </div>
         </div>

@@ -1,19 +1,37 @@
 @use 'variables' as *;
 
 html {
-    height: 100vh;
+    max-height: 100vh;
     margin: 0;
+    max-width: 100vw;
 }
 
 body {
-    height: 100%;
+    height: 90%;
+    max-width: 100vw;
     margin: 0;
     background-color: $bg;
+    overflow: scroll;
 }
 
 .main {
-    height: 100vh;
+    max-height: 100vh;
+    height: 80vh;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 5rem auto;
+    grid-template-rows: 8vh 90vh;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    width: 99vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.panel {
+    height: 100%;
+    width: 99vw;
+    position: absolute;
 }

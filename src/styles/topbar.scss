@@ -4,6 +4,8 @@
 .topbar {
     background-color: black;
     border: 2px solid $border;
+    box-sizing: border-box;
+    max-width: 100vw;
     display: grid;
     grid-template-columns: 10% 50% 10% 10% 10% 10%;
 }
