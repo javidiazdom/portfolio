@@ -1,0 +1,19 @@
+@use 'variables' as *;
+
+html {
+    height: 100vh;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: $bg;
+}
+
+.main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 5rem auto;
+}

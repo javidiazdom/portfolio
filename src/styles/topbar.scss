@@ -1,0 +1,25 @@
+@use "variables" as *;
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.topbar {
+    background-color: black;
+    border: 2px solid $border;
+    display: grid;
+    grid-template-columns: 10% 50% 10% 10% 10% 10%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    font-weight: 200;
+}
+
+.nav {
+    text-align: center;
+}
